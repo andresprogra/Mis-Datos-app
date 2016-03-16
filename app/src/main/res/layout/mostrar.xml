@@ -3,15 +3,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
+    android:background="#FFF"
+    android:id="@+id/mostrar"
 
     >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Estas usando un fragment!"
-        android:id="@+id/textView3"
+        android:text="Tu nombre es:"
+        android:id="@+id/nombre"
+        android:background="#FFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu apellido es:"
+        android:id="@+id/apellido"
+        android:layout_below="@+id/nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu edad es: "
+        android:id="@+id/edad"
+        android:layout_below="@+id/apellido"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="24dp"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
